@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: darkgrey;
 }
 
 .App-logo {
@@ -14,18 +15,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: darkgrey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: darkgrey;
 }
 
 .App-link {
-  color: #61dafb;
+  color: darkgrey;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.InputText{
+  display: flex;
+  color: darkblue;
+  text-align-all: center;
+  width: auto;
+  height: auto;
+}
+
+body{
+  background-color:white  ;
+
+}
+
+Button{
+  display: flex;
+  height: auto;
 }
